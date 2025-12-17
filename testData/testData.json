@@ -1,0 +1,17 @@
+[
+  {
+    "username": "arun@gmail.com",
+    "password": "test@123",
+	"expected":"Valid"
+  },
+  {
+    "username": "user@gmail.com",
+    "password": "user123",
+	"expected":"invalid"
+  },
+  {
+    "username": "arunjay@gmail.com",
+    "password": "test@123",
+	"expected":"Valid"
+  }
+]

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.303" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shree\OneDrive\Desktop\My Workspace\Eclipse and workspace\openCartDemoFramework\target\test-classes;C:\Users\Shree\OneDrive\Desktop\My Workspace\Eclipse and workspace\openCartDemoFramework\target\classes;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Shree\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Shree\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Shree\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Shree\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Shree\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Shree\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\Shree\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\Shree\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar;C:\Users\Shree\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Shree\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Shree\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Shree\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Shree\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Shree\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Shree\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Shree\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Shree\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Shree\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Shree\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Shree\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Shree\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Shree\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Shree\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Shree\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Shree\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Shree\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Shree\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\Shree\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\Shree\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\Shree\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shree\AppData\Local\Temp\surefire4874156619180498770\surefirebooter-20251217162721788_3.jar C:\Users\Shree\AppData\Local\Temp\surefire4874156619180498770 2025-12-17T16-27-21_430-jvmRun1 surefire-20251217162721788_1tmp surefire_0-20251217162721788_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shree\OneDrive\Desktop\My Workspace\Eclipse and workspace\openCartDemoFramework\target\test-classes;C:\Users\Shree\OneDrive\Desktop\My Workspace\Eclipse and workspace\openCartDemoFramework\target\classes;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\Shree\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Shree\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Shree\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Shree\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Shree\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\Shree\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\Shree\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Shree\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\Shree\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\Shree\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar;C:\Users\Shree\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Shree\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Shree\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Shree\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Shree\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Shree\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Shree\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Shree\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Shree\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Shree\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Shree\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Shree\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Shree\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Shree\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Shree\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Shree\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Shree\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Shree\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Shree\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Shree\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\Shree\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\Shree\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\Shree\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shree"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Shree\OneDrive\Desktop\My Workspace\Eclipse and workspace\openCartDemoFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shree\AppData\Local\Temp\surefire4874156619180498770\surefirebooter-20251217162721788_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+7-LTS-222"/>
+    <property name="user.name" value="Arun"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Shree\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shree\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\Users\Shree\OneDrive\Desktop\My Workspace\Eclipse and workspace\openCartDemoFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Shree\AppData\Local\Microsoft\WindowsApps;C:\Users\Shree\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Shree\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.23+7-LTS-222"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="verify_acc_registration" classname="testCase.TC001_AccountRegistrationsTest" time="2.992">
+    <system-out><![CDATA[16:27:25 [main] INFO  TC001_AccountRegistrationsTest - Browser launched: chrome
+16:27:26 [main] INFO  TC001_AccountRegistrationsTest - ============= TC001_AccountRegistration Test Started ===============
+16:27:26 [main] INFO  TC001_AccountRegistrationsTest - Navigating to Home Page
+16:27:26 [main] INFO  TC001_AccountRegistrationsTest - Clicked on 'My Account' link
+16:27:26 [main] INFO  TC001_AccountRegistrationsTest - Clicked on 'Registration' link
+16:27:26 [main] INFO  TC001_AccountRegistrationsTest - Filling registration form with random user data
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Entered First Name
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Entered Last Name
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Entered Email Address
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Entered Phone Number
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Entered Password
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Confirmed Password
+16:27:27 [main] INFO  TC001_AccountRegistrationsTest - Clicked on Privacy Policy Checkbox
+16:27:29 [main] INFO  TC001_AccountRegistrationsTest - Clicked on Continue button
+16:27:29 [main] INFO  TC001_AccountRegistrationsTest - Validating confirmation message...
+16:27:29 [main] INFO  TC001_AccountRegistrationsTest - Account Registration Test Passed — Account created successfully.
+16:27:29 [main] INFO  TC001_AccountRegistrationsTest - ============= TC001_AccountRegistration Test Completed ===============
+]]></system-out>
+    <system-err><![CDATA[Dec 17, 2025 4:27:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserLogin" classname="testCase.TC002_UserLoginTest" time="4.209">
+    <system-out><![CDATA[16:27:29 [main] INFO  TC001_AccountRegistrationsTest - Browser closed.
+16:27:30 [main] INFO  TC002_UserLoginTest - Browser launched: chrome
+16:27:31 [main] INFO  TC002_UserLoginTest - ===========TC002_UserLoginTest Start===========
+16:27:31 [main] INFO  TC002_UserLoginTest - Clicked on MyAccount
+16:27:31 [main] INFO  TC002_UserLoginTest - Clicked on Login
+16:27:32 [main] INFO  TC002_UserLoginTest - Set Email
+16:27:32 [main] INFO  TC002_UserLoginTest - Set Password
+16:27:32 [main] INFO  TC002_UserLoginTest - Clicked on Login Button
+16:27:35 [main] INFO  TC002_UserLoginTest - Logout successfuly
+16:27:35 [main] INFO  TC002_UserLoginTest - ===========TC002_UserLoginTest Finished===========
+]]></system-out>
+    <system-err><![CDATA[Dec 17, 2025 4:27:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT" classname="testCase.TC004_LoginDDT_Excel" time="4.662">
+    <failure message="java.lang.NoSuchMethodError: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream.builder()Lorg/apache/commons/io/output/UnsynchronizedByteArrayOutputStream$Builder;" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: java.lang.NoSuchMethodError: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream.builder()Lorg/apache/commons/io/output/UnsynchronizedByteArrayOutputStream$Builder;
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.NoSuchMethodError: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream.builder()Lorg/apache/commons/io/output/UnsynchronizedByteArrayOutputStream$Builder;
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:144)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:144)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:188)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:156)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+	at utility.ExcelUtility.loadFile(ExcelUtility.java:30)
+	at utility.ExcelUtility.getRowCount(ExcelUtility.java:41)
+	at utility.ExcelDataProvider.dataProvider(ExcelDataProvider.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 29 more
+]]></failure>
+    <system-out><![CDATA[16:27:36 [main] INFO  TC002_UserLoginTest - Browser closed.
+hello 1
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at testBase.BaseClass.captureScreen(BaseClass.java:124)
+	at utility.ExtentReportManager.onTestFailure(ExtentReportManager.java:60)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:968)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+</testsuite>
